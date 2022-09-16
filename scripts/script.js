@@ -7,5 +7,5 @@ const hours = oLastModif.getHours();
 const minutes = oLastModif.getMinutes();
 const seconds = oLastModif.getSeconds();
 
-const currentDate = month + "/" + oLastModif.getDate() + "/" + oLastModif.getFullYear() + " " + hours + ":" + minutes + ":" + seconds;
-document.getElementById('updated').textContent = currentDate;
+const lastDate = month + "/" + oLastModif.getDate() + "/" + oLastModif.getFullYear() + " " + hours + ":" + minutes + ":" + seconds;
+document.getElementById("updated").innerHTML  = lastDate;
