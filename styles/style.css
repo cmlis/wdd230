@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Aleo:ital,wght@1,300&display=swap');
+
+
+body {
+    background-color: white; 
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 1em;
+}
+
+header {
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+    position: relative;
+    background-color: black;
+}
+
+.logo {
+    width: 130px;
+    justify-items: center;
+    border-radius: 100px;
+}
+  
+
+#content{
+    max-width: 960px;
+    background-color: #212529;
+    grid-column: 3/6;
+    margin: 70px 40px 40px 40px;
+}
+  
+
+h1{
+    color: #E9ECEF;
+    font-size: 1.30em;
+    line-height: 1.1em;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    padding: 10px;
+    font-family: 'Montserrat', serif;
+    margin-bottom: 0;
+}
+
+h2{
+    color: #E9ECEF;
+    padding: 25px;
+    font-size: 2.0em;
+    line-height: 1.1em;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: lighter; 
+    font-family: 'Aleo', serif;
+    grid-column: 2/5;
+    margin-bottom: 0;
+}
+
+p{
+   color: #E9ECEF;
+   padding: 5px;
+   font-size: 1.0em;
+   font-style: italic;
+   line-height: 1.15em;
+   font-family: 'Open Sans', sans-serif;
+}
+
+
+li {
+   color: #DEE2E6;
+   font-size: 1.05em;
+   font-family: 'Open Sans', sans-serif;
+}
+
+a{
+  color: #A87F66;
+}
+
+a:link{
+  color: #774936;
+  text-decoration: none;
+}
+
+hr { 
+    border: 0;
+    border-top: 0.5px solid   white;
+    width: 80%;
+    margin-left: 80%;
+    margin-right: 2%;
+}
+  
+
+footer{
+    background-color: #A87F66;
+    position: relative;
+    padding: 0.20em;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.copy,#updated{
+    text-align:center;
+    font-size:12px;
+    color:#DEE2E6;
+
+}
+
+
+/* #updated {
+    color: ;
+    font-size: 12px;
+} */
