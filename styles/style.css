@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Aleo:ital,wght@1,300&display=swap');
 
-
+html{
+  display:block;
+}
 body {
+   
     background-color: white; 
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 1em;
+    position: relative;
 }
 
 header {
@@ -26,9 +30,12 @@ header {
 
 #content{
     max-width: 960px;
+    min-width: 400px;
     background-color: #212529;
-    grid-column: 3/6;
+    grid-column: 2/4;
     margin: 70px 40px 40px 40px;
+    position: relative;
+    
 }
   
 
@@ -54,6 +61,8 @@ h2{
     font-family: 'Aleo', serif;
     grid-column: 2/5;
     margin-bottom: 0;
+
+    
 }
 
 p{
