@@ -1,6 +1,9 @@
+// Set the year for copyright
+document.getElementById("year").innerHTML = new Date().getFullYear()
 
+
+//Set the date when last updated
 let oLastModif = new Date(document.lastModified);
-// console.log(oLastModif.get);
 
 const month = oLastModif.getMonth() + 1;
 const hours = oLastModif.getHours();
