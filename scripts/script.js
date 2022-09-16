@@ -1,5 +1,5 @@
 // Set the year for copyright
-document.getElementById("year").innerHTML = new Date().getFullYear()
+document.getElementById("year").innerHTML = new Date().getFullYear();
 
 
 //Set the date when last updated
